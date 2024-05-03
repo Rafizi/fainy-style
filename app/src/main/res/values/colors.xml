@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FFAAAA</color>
+    <color name="tv_color">#F5F5F5</color>
     <color name="text_red">#BC0000</color>
+    <color name="text_grey">#979797</color>
 
 </resources>

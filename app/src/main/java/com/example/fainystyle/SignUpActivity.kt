@@ -1,11 +1,27 @@
 package com.example.fainystyle
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.fainystyle.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySignUpBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.txtToSignIn.setOnClickListener {
+            startActivity(
+                Intent(this, SignInActivity::class.java)
+
+            )
+
+        }
+
+        binding.btnBackSignUp.setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
     }
 }
