@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fainy Style</string>
+    <string name="app_name">Fairy Style</string>
     <string name="password">Password</string>
     <string name="forget_pass">Lupa Kata Sandi</string>
     <string name="email_address">Email Address</string>
@@ -8,4 +8,12 @@
     <string name="desc1">Sampaikan Ide</string>
     <string name="get_started">GET STARTED</string>
     <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="log_in">LOG IN</string>
+    <string name="belum_punya_akun">BELUM PUNYA AKUN?</string>
+    <string name="signup">SIGNUP</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="daftar_sekarang">DAFTAR SEKARANG</string>
+    <string name="sudah_punya_akun">SUDAH PUNYA AKUN?</string>
+    <string name="sign_in">Sign-In</string>
 </resources>
